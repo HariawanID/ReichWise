@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# ignores all .md files
+.md
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
