@@ -17,6 +17,7 @@ import {
 } from 'reactstrap';
 
 
+import Navbar from '../LandingPage/Navbar';
 import Step1 from './Step1';
 import Step2 from './Step2';
 import Step3 from './Step3';
@@ -134,6 +135,8 @@ class MasterForm extends Component {
 
   render() {
     return (
+      <>
+      < Navbar/>
       <Form onSubmit={this.handleSubmit}>
         <Row>
         <Card>
@@ -177,6 +180,7 @@ class MasterForm extends Component {
         </Card>
         </Row>
       </Form>
+      </>
     );
   }
 }

@@ -9,12 +9,15 @@ html {
 .margin{
     margin: 10px;
 }
+
 .img-fluid{
     z-index: -1;
+    height: 35vh !important;
 }
 .container {
     position: relative;
   }
+  
 .bg-1 {
     background-image: url('/wave.svg'); /* URL gambar latar belakang */
     background-size: cover; /* Membuat gambar mencakup seluruh halaman */
