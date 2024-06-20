@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+html {
+  font-family: 'Poppins', sans-serif;
+}
+* {
+    font-family: 'Poppins', sans-serif;
+  }
+.margin{
+    margin: 10px;
+}
+.img-fluid{
+    z-index: -1;
+}
+.container {
+    position: relative;
+  }
+.bg-1 {
+    background-image: url('/wave.svg'); /* URL gambar latar belakang */
+    background-size: cover; /* Membuat gambar mencakup seluruh halaman */
+    background-repeat: no-repeat; /* Mencegah pengulangan gambar */
+    background-position: center; /* Memposisikan gambar di tengah */
+} 
+.overlay-text {
+    position: absolute;
+    /* top: 50%; Meletakkan teks pada titik tengah vertikal */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); Untuk menggeser teks ke tengah */
+    color: rgb(26, 25, 25); /* Warna teks */
+    text-align: center; /* Pusatkan teks */
+    z-index: 1; /* Pastikan teks ada di atas gambar */
+  }
+.team{
+    border-radius: 10px;
+    height: 25vw;
+    width: fit-content;
+    object-fit: cover;
+    /* width: 25vw; */
+}
+.footer{
+    background-color: #0099FF;
+    height: 70vh;
+    padding: 200px
+}
+.navbar{
+    background-color: #0099FF;
+}
+.item-navbar{
+    color: white;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+  
+  
