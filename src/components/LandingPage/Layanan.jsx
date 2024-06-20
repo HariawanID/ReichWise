@@ -20,12 +20,12 @@ function Layanan() {
               </div>
               <div className="row align-items-center">
                 <div className="col-lg-6 col-md-4 col-sm-12">
-                  <img src={content2} alt="Wave" className="img-fluid" />
+                  <img src={content2} alt="Wave" className="" />
                 </div>
                 <div className="col">
                   <div className="card">
                     <div className="card-body">
-                      <img src={content3} alt="Wave" className="img-fluid" />
+                      <img src={content3} alt="Wave" className="" />
                       <h4>Keep Tracking</h4>
                       <br />
                       <br />
@@ -43,7 +43,7 @@ function Layanan() {
                 <div className="col">
                   <div className="card">
                     <div className="card-body">
-                      <img src={content3} alt="Wave" className="img-fluid" />
+                      <img src={content3} alt="Wave"/>
                       <h4>Cek Keuangan</h4>
                       <br />
                       <p>

@@ -1,0 +1,71 @@
+.wrapper{
+  background: #ececec;
+  padding: 0 20px 0 20px;
+}
+
+.rowl{
+  width: 900px;
+  height: 550px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.2);
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.right-image{
+  background-color: blue;
+  border-radius: 10px 0 0 10px;
+}
+
+.text img{
+  position: absolute;
+  width : 20%;
+  height: 50%;
+  border: transparent;
+}
+
+.text h2{
+  position: absolute;
+  left: 30%;
+  top: 70%;
+}
+
+.side-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.side-form h2{
+  font-weight: 700;
+  text-align: center;
+}
+
+.btnlogin {
+  width: 100% ;
+}
+
+.signin{
+  text-align: center;
+}
+
+
+.frame-info p {
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.frame-info p:nth-child(2n+1) {
+  margin-right: 20px;
+}
+
+
+
+
